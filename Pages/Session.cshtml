@@ -1,0 +1,12 @@
+﻿@page
+@model Zadanie3.Pages.SessionModel
+@{
+}
+@if (Model.Class !=null)
+            {
+                <div class="col">
+                    <p>Liczba: @Model.Class.Liczba</p>
+                    <p>Data: @DateTime.Now</p>
+                    <p>Wynik: @Model.Class.Wynik</p>
+                </div>
+            }
